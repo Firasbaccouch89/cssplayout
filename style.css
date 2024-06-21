@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Navbar */
+*{
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    width: 250px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav li{
+    color: #ababab;
+    font-size: 23px;
+}
+nav li:hover{
+    color: #00b39b;
+}
+#about{
+    color: #00b39b;
+}
+/* Making */
+.making{
+    width: 70%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.making h1{
+    color: #00b39b;
+    font-weight: 300;
+}
+#paragraphs{
+    display: flex;
+    gap: 10px;
+    
+}
+#paragraphs p{
+    color: #6b6b6b;
+    line-height: 1.6;
+}
+
+/* all_cards */
+.all_cards{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background-color: #00b39b;
+    width: 27%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.card h3{
+    font-size: 25px;
+    font-weight: 300;
+}
+.card p{
+    font-size: 22px;
+    font-weight: 300;
+}
+.card2{
+    background-color: #3d83df;
+}
+.card3{
+    background-color: #1b2734;
+}
+.card select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    color: white;
+    font-size: 22px;
+    width: 200px;
+}
+.card option{
+    color: black;
+}
+#selection{
+    display: flex;
+    flex-direction: column;
+    gap: 15px ;
+}
